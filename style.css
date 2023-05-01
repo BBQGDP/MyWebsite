@@ -1,11 +1,25 @@
+:root {
+    font-variant: small-caps;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    text-shadow: 1px 1px 1px #3aec3a;
+}
+
+ol>li {
+    font-size: 110%;
+}
+.rules{
+    text-decoration: none;
+    
+}
+p2:hover {
+    color: #3aec3a
+}
+
 .left {
-    float:left;
+    float: left;
     margin-right: 0em;
 }
-/* .right {
-    float:right;
-    margin-right: 0em;
-} */
-/* h2, footer {
-    clear:left;
-} */
