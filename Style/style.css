@@ -7,9 +7,13 @@
     width: 100%;
 }
 
+body {
+    background-image: linear-gradient(to top, #008000#ffffff);
+}
+
 #nav_menu ul {
     list-style-type: none;
-    }
+}
 
 #nav_menu ul li {
     float: left;
@@ -21,10 +25,10 @@
     width: 175px;
     padding: 1em 0;
     text-decoration: none;
-    background-color: blue;
-    color: white;
+    background-color: #3aec3a;
+    color: #ffffff;
     font-weight: bold;
-    border-right: 2px solid white;
+    border-right: 2px solid #ffffff;
 }
 
 #nav_menu ul li a.lastitem {
@@ -32,13 +36,14 @@
 }
 
 #nav_menu ul li a.current {
-    color: yellow;
+    color: #ffff00;
 }
 
-main h2{
+main h2 {
     text-align: center;
 
 }
+
 #banner {
     border: 3px;
     border-width: 10%;
@@ -51,8 +56,12 @@ main h2{
     clear: left;
 }
 
-body {
-    background-image: linear-gradient(to top, green, white);
+#banner>img {
+    height: 5em;
+}
+
+main h2 {
+    text-align: center;
 }
 
 #general {
@@ -63,21 +72,23 @@ body {
     border-radius: 30px 30px 30px 30px;
     font-size: 100%;
     background-color: #ffffff;
-    float:left;
+    float: left;
     width: 30%;
 }
-#banner>img {
-    height:5em;
+
+#general>h1~li {
+    float: left;
 }
 
 #court {
-    width:30em;
+    width: 30em;
     height: 25em;
-    float:right;
+    float: right;
     margin: 0 40em 0 0;
 }
+
 #general>h1~li {
-float:left;
+    float: left;
 }
 
 #serving {
@@ -89,7 +100,7 @@ float:left;
     font-size: 100%;
     background-color: #ffffff;
     width: 30%;
-    clear:left;
+    clear: left;
 }
 
 #Ettiquete {
@@ -101,7 +112,7 @@ float:left;
     font-size: 100%;
     background-color: #ffffff;
     width: 30%;
-    clear:left;
+    clear: left;
 }
 
 #center {
@@ -117,6 +128,7 @@ h2+p {
     margin: .9em;
     margin-bottom: -1em;
 }
+
 h1,
 h2 {
     text-shadow: 1px 1px 1px #3aec3a;
@@ -165,15 +177,16 @@ p2:hover {
     height: 40em;
     clear: left;
 }
+
 #majestic {
     clear: left;
-    float:left;
+    float: left;
     height: 30em;
     width: 20em;
-    
-}
-#Lorem{ 
-    column-count: 5;
-    clear:left;
 
+}
+
+#Lorem {
+    column-count: 5;
+    clear: left;
 }
