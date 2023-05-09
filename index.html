@@ -6,51 +6,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pickleball</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Style/style.css">
 </head>
 
 <body>
-    <!--This is a picture of a pickleball-->
-    <img src="Pickleball.jpg" class="left" height="35px">
-    <h1>Pickleball</h1>
-
+    <nav id="nav_menu">
+        <ul>
+            <li><a href="index.html"> Index </a></li>
+            <li><a href="skill.html">Skill Levels</a></li>
+            <li><a href="funfacts.html">Fun Facts</a></li>
+            <li><a href="Lorem.html">Lorem Ipsum</a></li>
+        </ul>
+    </nav>
+    <section id="banner">
+        <!--This is a picture of a pickleball-->
+        <img src="Images/Pickleball.jpg" class="left" height="30em">
+        <h1 class="left">Pickleball</h1>
+        <img src="Images/Pickleball.jpg" height="30em">
+    </section>
+    
     <main>
-        <h2>Scoring</h2>
-        <!-- <---This section contains nested OL and UL -->
-        <p>There are two types of scoring, <p2 class="focus">rally</p2> and <p2 class="focus">standard</p2>:</p>
-        <ol>
-            <li>
-                <p2>Rally</p2>
-            </li>
+        <section id="general">
+            <h2>Scoring</h2>
+            <!-- <---This section contains nested OL and UL -->
+            <p>There are two types of scoring, <p2 class="focus">rally</p2> and <p2 class="focus">standard</p2>:</p>
+            <ol>
+                <li>
+                    <p2>Rally</p2>
+                </li>
+                <ul>
+                    <li>Points are made on every serve</li>
+                    <li>Games are generally played to 11</li>
+                </ul>
+                <li>
+                    <p2>Standard</p2>
+                </li>
+                <ul>
+                    <li>Points are only made on your serve</li>
+                    <li>Games are generally played to 11</li>
+                </ul>
+            </ol>
+           
+        </section>
+        <img id="court" src="Images/Court.jpg" height="30em">
+        <section id="serving">
+            <h2>Serving</h2>
+            
             <ul>
-                <li>Points are made on every serve</li>
-                <li>Games are generally played to 11</li>
+                <li>The score will be stated before the serve</li>
+                <li>Must serve the ball to the diagonal court</li>
+                <li>The ball must be struck below the navel</li>
+                <li>The ball must pass the "kitchen" line</li>
             </ul>
-            <li>
-                <p2>Standard</p2>
-            </li>
+        </section>
+        <section id="Ettiquete">
+            <h2>Ettiquete</h2>
             <ul>
-                <li>Points are only made on your serve</li>
-                <li>Games are generally played to 11</li>
+                <li>First and foremost, have fun!</li>
+                <li>In recreational play, don't expose weaknesses, let everyone have fun</li>
+                <li>Cheer on good plays, even if they are against you</li>
+                <li>If you hit someone with the ball, apologize</li>
+                <li>When congratulating, don't smash your paddle into someone elses</li>
             </ul>
-        </ol>
-        <h2>Serving</h2>
-        <ul>
-            <li>The score will be stated before the serve</li>
-            <li>Must serve the ball to the diagonal court</li>
-            <li>The ball must be struck below the navel</li>
-            <li>The ball must pass the "kitchen" line</li>
-        </ul>
-        <h2>Ettiquete</h2>
-        <ul>
-            <li>First and foremost, have fun!</li>
-            <li>In recreational play, don't expose weaknesses, let everyone have fun</li>
-            <li>Cheer on good plays, even if they are against you</li>
-            <li>If you hit someone with the ball, apologize</li>
-            <li>When congratulating, don't smash your paddle into someone elses</li>
-        </ul>
-        <!--This section contains an anchor tag-->
-        If you want to learn more about the rules, click <a class = "rules" href="Overview-2022-Pickleball-Rules.pdf"> this link</a>.
+        </section>
+        <section id="link">
+            <!--This section contains an anchor tag-->
+            If you want to learn more about the rules, click <a class="rules"
+                href="Link/Overview-2022-Pickleball-Rules.pdf">
+                this link</a>.<br>
+            If you're intested in tournaments, click <a href="https://www.pickleballtournaments.com/">here </a><br>
+            If you want to see even more tournaments, click <a href="https://pickleballbrackets.com/pts.aspx"> here</a>
+        </section>
+        
     </main>
     <!--This section contains the footer, a copywrite symbol, and my name/year-->
     <footer>

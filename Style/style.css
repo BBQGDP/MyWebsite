@@ -1,0 +1,179 @@
+:root {
+    font-variant: small-caps;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    height: 100%;
+    width: 100%;
+}
+
+#nav_menu ul {
+    list-style-type: none;
+    }
+
+#nav_menu ul li {
+    float: left;
+}
+
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
+    width: 175px;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-right: 2px solid white;
+}
+
+#nav_menu ul li a.lastitem {
+    border-right: none;
+}
+
+#nav_menu ul li a.current {
+    color: yellow;
+}
+
+main h2{
+    text-align: center;
+
+}
+#banner {
+    border: 3px;
+    border-width: 10%;
+    border-spacing: 10%;
+    border-style: dashed;
+    border-radius: 30px 0px 30px 0px;
+    text-align: center;
+    font-size: 185%;
+    background-color: #ffffff;
+    clear: left;
+}
+
+body {
+    background-image: linear-gradient(to top, green, white);
+}
+
+#general {
+    border: 3px;
+    border-width: 10%;
+    border-spacing: 10%;
+    border-style: dashed;
+    border-radius: 30px 30px 30px 30px;
+    font-size: 100%;
+    background-color: #ffffff;
+    float:left;
+    width: 30%;
+}
+#banner>img {
+    height:5em;
+}
+
+#court {
+    width:30em;
+    height: 25em;
+    float:right;
+    margin: 0 40em 0 0;
+}
+#general>h1~li {
+float:left;
+}
+
+#serving {
+    border: 3px;
+    border-width: 10%;
+    border-spacing: 10%;
+    border-style: dashed;
+    border-radius: 30px;
+    font-size: 100%;
+    background-color: #ffffff;
+    width: 30%;
+    clear:left;
+}
+
+#Ettiquete {
+    border: 3px;
+    border-width: 10%;
+    border-spacing: 10%;
+    border-style: dashed;
+    border-radius: 30px;
+    font-size: 100%;
+    background-color: #ffffff;
+    width: 30%;
+    clear:left;
+}
+
+#center {
+    text-align: center;
+    font-size: larger;
+}
+
+h2 {
+    margin: 1em 0em -.7em;
+}
+
+h2+p {
+    margin: .9em;
+    margin-bottom: -1em;
+}
+h1,
+h2 {
+    text-shadow: 1px 1px 1px #3aec3a;
+}
+
+ol>li {
+    font-size: 110%;
+}
+
+.rules {
+    text-decoration: none;
+}
+
+p2:hover {
+    color: #3aec3a;
+}
+
+.left {
+    float: left;
+    margin-right: 3em;
+    margin-top: .08em;
+    margin-left: .4em;
+}
+
+.right {
+    float: right;
+    /* margin-right:  -1em; */
+    margin-top: -4.2em
+}
+
+#court {
+    size: 200px;
+}
+
+
+#link {
+    clear: both;
+}
+
+
+#facts {
+    clear: left;
+}
+
+#dupr {
+    height: 40em;
+    clear: left;
+}
+#majestic {
+    clear: left;
+    float:left;
+    height: 30em;
+    width: 20em;
+    
+}
+#Lorem{ 
+    column-count: 5;
+    clear:left;
+
+}
